@@ -1,8 +1,8 @@
 ---
 
 ########## GENERAL SETTINGS ######################################################################################################
-name: tydom2mqtt
-image: fmartinou/tydom2mqtt
+name: tydom2mqtt_dbouchabou
+image: dbouchabou/tydom2mqtt
 version: 2.6.6
 slug: tydom2mqtt
 description: Deltadore Tydom to MQTT Bridge
@@ -12,7 +12,7 @@ arch:
   - aarch64
   - amd64
   - i386
-url: https://github.com/fmartinou/tydom2mqtt.git
+url: https://github.com/dbouchabou/tydom2mqtt.git
 services:
   - mqtt:need
 
